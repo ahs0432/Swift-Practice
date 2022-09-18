@@ -6,7 +6,7 @@ class MyFriend {
     
     init (_ name: String = "이름없음") {
         self.name = name
-        print("init() MyFriend가 메모리에 올라감")
+        print("init() MyFriend가 메모리에 올라감 - \(self.name)")
     }
     
     deinit {
